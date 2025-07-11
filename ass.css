@@ -1,3 +1,4 @@
+
 /*font start form here*/
 
 .raleway-normal {
@@ -7,6 +8,109 @@
   font-style: normal;
 }
 /*font end form here*/
+
+/*nav style start form here*/
+nav ul li{
+    list-style: none;
+}
+
+.navigation{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+    
+    
+
+.nav-title{
+    font-size: 34px;
+    color: #4E47FF;
+}
+.nav-btn{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 12px;
+    border-style: none;
+    border-radius: 5px;
+    background-color:#4E47FF;
+}
+
+    /*nav style stop form here*/
+
+    /*header style start form here*/
+
+
+
+    .header-title-btn-control{
+    text-align: center;
+}
+
+.header-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+.header-btn{
+    width: 170px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-style: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.banner-bg{
+    align-items: center;
+  max-width: 1440px;
+    height: 698px;
+    
+    background-image:url('/Assets/Hero-bg.png');
+    background-position: top;
+}
+.action-section{
+  width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 150px;
+}
+
+.ac-sc-title{
+
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.ac-sc-decription{
+  
+    width: 300px;
+    color: #252432;
+}
+.ac-sc-button{
+  color: #FFFFFF;
+  background-color: #4E47FF;
+  border-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  width: 236px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+
+
+
+.ac-img{
+    width: 400px;
+    height: 280px;
+    border-radius: 30px;
+    
+}
+
 
 
 
