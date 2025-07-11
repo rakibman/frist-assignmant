@@ -72,7 +72,8 @@ nav ul li{
     background-image:url('/Assets/Hero-bg.png');
     background-position: top;
 }
-.action-section{
+.action-section{ 
+  text-align: center;
   width: 1140px;
     display: flex;
     justify-content: space-between;
@@ -100,17 +101,49 @@ nav ul li{
   padding: 12px;
   border-radius: 10px;
 }
-
-
-
-
 .ac-img{
     width: 400px;
     height: 280px;
     border-radius: 30px;
     
 }
+/*user section start form here*/
 
+.user-section{
+ 
+  max-width: 800px;
+  height: 260px;
+  margin: 10px 150px;
+  background-color: #cccbf6;
+  padding: 70px 160px;
+  border-radius: 20px;
+}
+.user-containers{
+  justify-content: space-between;
+  display: flex
+ 
+}
+.user-container{
+  
+  
+  
+}
+.user-title{
+  color: #252432;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+.user-amount{
+  
+  font-size: 50px;
+  font-weight: bold;
+}
+.user-decription{
+  font-size: 20px;
+color: #000000;
+
+}
 
 
 
