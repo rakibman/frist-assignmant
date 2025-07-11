@@ -74,7 +74,7 @@ nav ul li{
 }
 .action-section{ 
   text-align: center;
-  width: 1140px;
+  width: 1000px;
     display: flex;
     justify-content: space-between;
     margin: 116px 150px;
@@ -240,7 +240,7 @@ footer ul li{
   display: flex;
   gap: 80px;
   justify-content: space-around;
-  margin: 5px 400px;
+  margin: 5px 260px;
 }
 /*footer style stop form here*/
 
