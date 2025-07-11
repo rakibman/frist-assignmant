@@ -123,11 +123,6 @@ nav ul li{
   display: flex
  
 }
-
-  
-  
-  
-
 .user-title{
   color: #252432;
   font-size: 38px;
@@ -145,17 +140,22 @@ color: #000000;
 
 }
 /*reviewer style section start form here*/
+.tuch-section{
+  column-count: 2;
+  justify-content:space-between;
+}
 
 
 .review-containers{
- column-count: 3;
+  column-count: 3;
+ 
  justify-content: space-between;
  margin: 20px 150px;
 }
 
 .review-container{
   
-  background-color: rgb(244, 206, 206);
+background-color: rgb(244, 206, 206);
 width: 310px;
 height: 200px;
 padding: 24px;
@@ -184,7 +184,27 @@ border-radius: 10px;
 .rev-description{
   color: #B3B3B3;
 }
-/*reviewer style section start form here*/
+/*reviewer style section stop form here*/
+.touch-section{
+  justify-content: space-between;
+  text-align: center;
+  width: 1200px;
+  display: flex;
+  column-count: 2;
+  margin: 100px 0px;
+}
+.left-clm{
+  text-align: left;
+}
+.touch-section-title{
+  width: 512px;
+  font-size: 90px;
+  font-weight: bold;
+}
+.input{
+  size: 50px;
+}
+
 
 
 
