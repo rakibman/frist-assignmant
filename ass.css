@@ -183,7 +183,13 @@ border-radius: 10px;
 }
 .rev-description{
   color: #B3B3B3;
+} 
+/*inpur fild start form here*/
+.input{
+  font-size: 20px;
+  padding: 10px;
 }
+
 /*reviewer style section stop form here*/
 .touch-section{
   justify-content: space-between;
@@ -204,6 +210,39 @@ border-radius: 10px;
 .input{
   size: 50px;
 }
+/*footer style start form here*/
+
+.footers{
+  text-align: center;
+  background-color: #f8efef;
+  padding: 50px 100px;
+  
+   
+}
+
+.footer-title{
+
+  font-size: 100px;
+  color: #4E47FF;
+ 
+}
+.footer-decription{
+  color: #8987A1;
+  
+}
+footer ul li{
+  list-style: none;
+  
+  
+  
+}
+.footer-list{
+  display: flex;
+  gap: 80px;
+  justify-content: space-around;
+  margin: 5px 400px;
+}
+/*footer style stop form here*/
 
 
 
